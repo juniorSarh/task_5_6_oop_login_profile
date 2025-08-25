@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <main class="container">
+    <h1>Create Account</h1>
+    <form id="signupForm" class="card">
+      <label>Username
+        <input type="text" id="signup-username" required />
+      </label>
+      <label>Email
+        <input type="email" id="signup-email" required />
+      </label>
+      <label>Password
+        <input type="password" id="signup-password" minlength="4" required />
+      </label>
+      <button type="submit">Sign Up</button>
+      <p class="muted">
+        Already have an account? <a href="index.html">Sign in</a>
+      </p>
+      <div id="signup-msg" class="msg"></div>
+    </form>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
