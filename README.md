@@ -38,9 +38,9 @@ Implements: **Sign up → Login → Profile → Logout**.
 The SQLite database file `users.db` will be created automatically on first run. It will also seed a demo user if the table is empty.
 
 ## Example Credentials for Testing
-- **Username:** `demo`  
-- **Password:** `demo123`
-- **Email:** `demo@example.com`
+- **Username:** `junior`  
+- **Password:** `sah123`
+- **Email:** `sahjnr@gmail.com`
 
 > You can also create your own user via the Sign Up page.
 
