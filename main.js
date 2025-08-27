@@ -129,8 +129,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       try {
         await auth.signup(username, email, password);
-        msg.textContent = "Signup successful! Redirecting to login...";
-        setTimeout(() => (location.href = "index.html"), 700);
+        msg.textContent = 'Signup successful. Redirecting to login...';
+        setTimeout(() => (window.location.href = 'index.html'), 800);
       } catch (err) {
         msg.textContent = err.message;
       }
